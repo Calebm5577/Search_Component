@@ -1,3 +1,8 @@
+const image = new Image();
+image.src = '../images/myself.jpg'
+var arr = [`Caleb ${image.src}`.split('\n')];
+console.log(arr[0])
+
 export default `Afghanistan
 Albania
 Algeria
@@ -193,4 +198,5 @@ Venezuela
 Vietnam
 Yemen
 Zambia
-Zimbabwe`.split('\n')
+Zimbabwe
+Caleb ${image.src}`.split('\n')

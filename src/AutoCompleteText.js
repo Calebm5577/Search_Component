@@ -6,7 +6,7 @@ export default class AutoCompleteText extends React.Component {
         super(props);
         this.state = {
             suggestions: [],
-            text: '',
+            text: ''
         };
     }
 
@@ -20,6 +20,7 @@ export default class AutoCompleteText extends React.Component {
         }
         this.setState(() => ({ suggestions, text: value}));
     }
+
 
     suggestionSelected (value) {
         this.setState(() => ({
